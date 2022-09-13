@@ -97,7 +97,6 @@ class Menu {
 
   //Reusable code that displays the list of Events that have been created
   //and displays them to allow users to more easily select their options.
-  //test change
   rosterListDisplay(){
     if(this.cateringEventRoster.length > 0) {
       let output = '';
@@ -163,3 +162,5 @@ class Menu {
 
 let menu = new Menu();
 menu.start();
+
+//https://youtu.be/BL0xpBnqtv0
